@@ -8,7 +8,7 @@ class Person:
         self.health = health
         self.max_health = health
         self.position = position        
-        self.inventory = Inventory(12)
+        self.inventory = Inventory(24)
 
     def atack_person(self, person):
         total_damage = 0
